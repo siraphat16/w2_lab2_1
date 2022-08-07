@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    1. ชื่อเต็ม/ย่อของสาขาวิชา
+    <input type="text">
+    <br><br>
+
+    2. จำนวนเงินที่จะโอน
+    <input type="text" pattern="\d+">
+    <br><br>
+
+    3. อาหารที่ชื่นชอบ 5 ชนิด ที่ชื่นชอบจากมากไปน้อย<br>
+    <label>อาหารที่ชื่นชอบ มากที่สุด 
+    <select name="food">
+    <option value =""> --ตัวเลือก-- </option>
+    <option value ="food 1"> ก๋วยเตี๋ยว </option>
+    <option value ="food 2"> ส้มตำ </option>
+    <option value ="food 3"> อาหารญี่ปุ่น </option>
+    <option value ="food 4"> ข้าวผัด </option>
+    <option value ="food 5"> ข้าวมันไก่ </option>
+    </select>
+    </label>
+    <br>
+
+    <label>อาหารที่ชื่นชอบ มาก
+    <select name="food">
+    <option value =""> --ตัวเลือก-- </option>
+    <option value ="food 1"> ก๋วยเตี๋ยว </option>
+    <option value ="food 2"> ส้มตำ </option>
+    <option value ="food 3"> ข้าวมันไก่ </option>
+    <option value ="food 4"> ช้าวผัด </option>
+    <option value ="food 5"> อาหารญี่ปุ่น </option>
+    </select>
+    </label>
+    <br>
+
+    <label>อาหารที่ชื่นชอบ ปานกลาง
+    <select name="food">
+    <option value =""> --ตัวเลือก-- </option>
+    <option value ="food 1"> ก๋วยเตี๋ยว </option>
+    <option value ="food 2"> ส้มตำ </option>
+    <option value ="food 3"> ข้าวมันไก่ </option>
+    <option value ="food 4"> ช้าวผัด </option>
+    <option value ="food 5"> อาหารญี่ปุ่น </option>
+    </select>
+    </label>
+    <br>
+
+    <label>อาหารที่ชื่นชอบ น้อย
+    <select name="food">
+    <option value =""> --ตัวเลือก-- </option>
+    <option value ="food 1"> ก๋วยเตี๋ยว </option>
+    <option value ="food 2"> ส้มตำ </option>
+    <option value ="food 3"> ข้าวมันไก่ </option>
+    <option value ="food 4"> ช้าวผัด </option>
+    <option value ="food 5"> อาหารญี่ปุ่น </option>
+    </select>
+    </label>
+    <br>
+
+    <label>อาหารที่ชื่นชอบ น้อยมาก
+    <select name="food">
+    <option value =""> --ตัวเลือก-- </option>
+    <option value ="food 1"> ก๋วยเตี๋ยว </option>
+    <option value ="food 2"> ส้มตำ </option>
+    <option value ="food 3"> ข้าวมันไก่ </option>
+    <option value ="food 4"> ช้าวผัด </option>
+    <option value ="food 5"> อาหารญี่ปุ่น </option>
+    </select>
+    </label>
+    <br><br>
+
+    4. ค่าไฟฟ้า 3 เดือน ที่ผ่านมา
+    <input type="text" pattern="\d+">
+    <input type="text" pattern="\d+">
+    <input type="text" pattern="\d+">
+    <br><br>
+
+    5. รหัสบัตรประชาชน
+    <input type="text" pattern="\d{13}" maxlength="13">
+    <br><br>
+
+    6. ความพึงพอใจของหนังสือเล่มนี้<br>
+    <label>ความพึงพอใจ :
+      <input type = "radio" name = "book" value = "5" >มากที่สุด
+      <input type = "radio" name = "book" value = "4" >มาก
+      <input type = "radio" name = "book" value = "3" >ปานกลาง
+      <input type = "radio" name = "book" value = "2" >น้อย
+      <input type = "radio" name = "book" value = "1" >น้อยมาก
+    </label>
+    <br><br>
+    
+    7. อาการป่วย<br>
+    <textarea cols="20" rows="3"></textarea>
+    <br><br>
+
+    8. ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่
+    <labe>
+        <input type = "checkbox" name = "vaccine" value = " ever" checked ="checked">เคย
+        <input type = "checkbox" name = "vaccine" value = "never">ไม่เคย
+    </labe>
+    <br><br>
+
+    9. รหัสผ่าน
+    <input type="text" pattern="\d{13}" maxlength="13">
+    <br><br>
+
+    10. เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน
+    <input type="time"> - <input type="time">
+    <br><br>
+
+    11. วันเวลาที่ต้องไปพบแพทย์
+    //date-local
+    
+    <input type="datetime-local">
+
+
+</body>
+</html>
